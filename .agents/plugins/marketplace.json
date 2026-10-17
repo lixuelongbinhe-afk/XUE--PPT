@@ -1,0 +1,20 @@
+{
+  "name": "xue-competition-tools-lite",
+  "interface": {
+    "displayName": "XUE 竞赛工具"
+  },
+  "plugins": [
+    {
+      "name": "xue-contest-ppt-lite",
+      "source": {
+        "source": "local",
+        "path": "./plugins/xue-contest-ppt-lite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

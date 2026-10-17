@@ -1,0 +1,11 @@
+work/
+dist/
+outputs/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.venv/
+node_modules/
+*.zip

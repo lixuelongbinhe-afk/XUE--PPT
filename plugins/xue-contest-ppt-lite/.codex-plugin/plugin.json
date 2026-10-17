@@ -1,0 +1,24 @@
+{
+  "name": "xue-contest-ppt-lite",
+  "version": "0.1.1",
+  "description": "Evidence-based competition document orchestration for Codex.",
+  "author": {
+    "name": "Competition Docs contributors"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "XUE-大赛PPT",
+    "shortDescription": "依据竞赛要求和论文或项目生成可追溯的竞赛材料",
+    "longDescription": "按需编排技术报告、创新创业计划书、DOCX/PDF/PPTX，支持 Canva、Zotero、GitHub、Exa、断点恢复和质量检查。",
+    "developerName": "Competition Docs contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "根据竞赛要求和我的论文或项目，按需生成参赛材料。"
+    ]
+  }
+}

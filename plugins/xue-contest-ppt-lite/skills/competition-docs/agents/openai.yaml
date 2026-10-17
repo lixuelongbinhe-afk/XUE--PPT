@@ -1,0 +1,4 @@
+interface:
+  display_name: "XUE-大赛PPT"
+  short_description: "按竞赛要求整合论文与项目，生成可核验、可恢复的参赛文档和答辩材料"
+  default_prompt: "使用 $competition-docs，根据竞赛要求与我的论文或项目按需生成参赛材料。"

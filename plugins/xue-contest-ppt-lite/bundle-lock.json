@@ -1,0 +1,20 @@
+{
+  "vendors": [],
+  "files": {
+    ".codex-plugin/plugin.json": "7935014fc8997fcfeb03155f5eea7fabc700bf29d5cd5416f00260dedd531e09",
+    "LICENSE": "a2a64b3655388e92f20ea412430956f58d89faf08314a97503c55d43e0eaa2eb",
+    "dependencies.json": "5b18cd8e909e59712dcf45905673eb8fdd1f521a50eeb22d7bbeca04ed0441e3",
+    "skills/competition-docs/SKILL.md": "00da3e03e0d40558a8992b47e663f7d941c44993c3150ded6c76c5c08bf552a3",
+    "skills/competition-docs/agents/openai.yaml": "725628cc335ba524fbde718c0804743fbf438e24d06005be28336bb7a4b80121",
+    "skills/competition-docs/references/deliverables.md": "5360743e465c2e25498567579f5e4a6efd99825da4880fe596b742d75a22bcbc",
+    "skills/competition-docs/references/dependencies.md": "ee07b8783e84da9b077e40a4af9662070595f4a830e3823440436b1acefe08f1",
+    "skills/competition-docs/references/evidence.md": "1afa1dd102aa7cc1d61e6c1288b8adc4223cd3c3b025440c3abfefebb1248328",
+    "skills/competition-docs/references/fallbacks.md": "7dcf4e5784524b9f9f73588044020a407745599d6e2c2bcd6fc14f9a517f620b",
+    "skills/competition-docs/references/presentations.md": "88494fc20473e9a5366055d92bf2934a5d15f898a684e4e92250c682cdaf3109",
+    "skills/competition-docs/references/scenarios.md": "c4a92dc9722e62159a9f545f557da6642393e6400ee0c5cc56fb30fbab6c8ff6",
+    "skills/competition-docs/references/sources.md": "b6253c511ed68b1ef8f47fd813b827f5b40f4c8a4cbc0f6c2576256b0eedff78",
+    "skills/competition-docs/references/workflow.md": "c34d456d6ae1a82b7b2a18078c41634370b2885d7aaec5aa02137e7448e59ae4",
+    "skills/competition-docs/scripts/preflight.py": "e6237ac85b4b053582fe7dba1e60ed62024d1f14e176c632cbcfc88d6871c412",
+    "skills/competition-docs/scripts/workflow.py": "02d342f62689342388d94c749e60cddd3ed98bc57f9ffb4360493dc2f5d9165b"
+  }
+}

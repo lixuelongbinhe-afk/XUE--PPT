@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "variant": "lite",
+  "note": "Documentation inventory, not a host automatic-install manifest.",
+  "services": [
+    {
+      "id": "exa",
+      "required_when": "external research",
+      "bundled_config": false,
+      "authentication": "user connection required"
+    },
+    {
+      "id": "canva",
+      "required_when": "PPT design/templates",
+      "bundled_config": false,
+      "authentication": "user connection required"
+    },
+    {
+      "id": "documents",
+      "required_when": "DOCX",
+      "bundled_config": false,
+      "authentication": "user connection required"
+    },
+    {
+      "id": "pdf",
+      "required_when": "PDF input/output",
+      "bundled_config": false,
+      "authentication": "user connection required"
+    },
+    {
+      "id": "github",
+      "required_when": "GitHub repository input",
+      "bundled_config": false,
+      "authentication": "user connection required"
+    }
+  ],
+  "skills": [
+    {
+      "id": "zotero-cli",
+      "delivery": "external"
+    },
+    {
+      "id": "repomix-explorer",
+      "delivery": "external"
+    },
+    {
+      "id": "ppt-master",
+      "delivery": "external"
+    },
+    {
+      "id": "slides",
+      "delivery": "external"
+    },
+    {
+      "id": "html-to-pptx",
+      "delivery": "external"
+    },
+    {
+      "id": "exa-web-search",
+      "delivery": "external"
+    },
+    {
+      "id": "grill-me",
+      "delivery": "external"
+    },
+    {
+      "id": "write-a-skill",
+      "delivery": "external"
+    }
+  ],
+  "executables": [
+    "python3",
+    "zotero-cli",
+    "repomix or npx",
+    "node for HTML/PPT tools"
+  ],
+  "rendering": "Use resolved host bundled runtime first; verify actual renderer per output format.",
+  "not_redistributed": "Documents, PDF, Canva, GitHub service plugins; credentials; Zotero executable; Repomix executable; model/OS runtimes."
+}
