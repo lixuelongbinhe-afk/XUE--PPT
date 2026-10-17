@@ -72,9 +72,9 @@ codex plugin add xue-contest-ppt-lite@xue-competition-tools-lite
 
 ## 工作链路
 
-![从论文与项目到证据和交付物的概念流程](assets/workflow.png)
+![从论文与项目到证据和交付物的概念流程](assets/workflow.svg)
 
-*配图为 Infinite Canvas 生成的流程概念插画；具体工具路由如下。*
+*封面通过 Infinite Canvas 生成；此流程图为可编辑 SVG，具体工具路由如下。*
 
 ```mermaid
 flowchart LR
@@ -180,4 +180,4 @@ python3 tools/validate.py
 
 感谢 PPT Master、Slides、HTML to PPTX、Exa 及相关技能作者。具体归属、许可和服务边界以分发包的 [THIRD_PARTY_NOTICES.md](plugins/xue-contest-ppt-lite/THIRD_PARTY_NOTICES.md) 与上游 LICENSE/NOTICE 为准。
 
-README 封面和流程概念图通过 Infinite Canvas 生成，图片文件随仓库保存，不依赖临时云端链接。
+README 封面通过 Infinite Canvas 生成；流程图为手工编写的可编辑 SVG。图片文件随仓库保存，不依赖临时云端链接。
